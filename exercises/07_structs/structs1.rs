@@ -26,10 +26,11 @@ mod tests {
         // TODO: Instantiate a classic c struct!
         // let green =
         let green = ColorClassicStruct {red: 0, green: 255, blue: 0};
-
+        
         assert_eq!(green.red, 0);
         assert_eq!(green.green, 255);
         assert_eq!(green.blue, 0);
+
     }
 
     #[test]
