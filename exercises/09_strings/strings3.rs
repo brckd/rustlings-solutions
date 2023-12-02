@@ -5,7 +5,7 @@
 
 fn trim_me(input: &str) -> String {
     // TODO: Remove whitespace from both ends of a string!
-    String::from(String::from(input).trim())
+    String::from(input.trim())
 }
 
 fn compose_me(input: &str) -> String {
